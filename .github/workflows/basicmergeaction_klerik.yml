@@ -32,3 +32,9 @@ jobs:
         run: |
           cp basic.html ~/basic.html
           echo "copying basic html to home folder"
+          
+      # Upload artifact
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: ~/basic.html

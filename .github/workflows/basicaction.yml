@@ -31,5 +31,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo ${{ secrets.SHELDON }}
+          echo "${{ secrets.SHELDON }}" >> ~/Sheldonsecret.txt 
           echo test, and deploy your project.

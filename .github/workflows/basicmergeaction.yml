@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Totatlly not a test
+name: Now we are working with merges
 
 # Controls when the workflow will run
 on:
@@ -16,7 +16,7 @@ jobs:
   # This workflow contains a single job called "build"
   notatest:
     # The type of runner that the job will run on
-    runs-on: klerikslaptop
+    runs-on: hannes-MBP
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

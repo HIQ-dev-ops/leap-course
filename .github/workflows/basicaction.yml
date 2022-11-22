@@ -16,7 +16,7 @@ jobs:
   # This workflow contains a single job called "build"
   notatest:
     # The type of runner that the job will run on
-    runs-on: hannes-MBP
+    runs-on: klerikslaptop
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:

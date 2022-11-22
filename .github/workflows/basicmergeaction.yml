@@ -22,11 +22,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      
+      - name: Archieve stuff
+        uses: actions/upload-artifact@v3
+        with:
+          name: archieving-some-stugg
+          path: ~/basic.html
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world single line!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: cp basic.html ~/basic.html
